@@ -1,4 +1,4 @@
-import { Component,OnInit, ViewChild } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-watch',
@@ -7,8 +7,6 @@ import { Component,OnInit, ViewChild } from '@angular/core';
   templateUrl: './watch.component.html',
   styleUrl: './watch.component.css'
 })
-export class WatchComponent implements OnInit {
-  @ViewChild('hrHand')
-constructor(){}
-ngOnInit(){}
+export class WatchComponent {
+
 }
